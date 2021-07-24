@@ -10,7 +10,8 @@ def test_function(request):
 	people = ['Gregory','Mary','Jose','Pedro','John']
 	return render(request,'index.html',{'total' : tot,'people' : people, 'p_fla': p_fla})
 
-    
+def anand(request):
+	return render(request,'index2.html')
     
 
 def list_clients(request):
